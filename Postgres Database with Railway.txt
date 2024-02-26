@@ -1,0 +1,21 @@
+1 - Create an account on railway.app
+
+2 - by selecting the "Variables" tab if you want a more user friendly version of this connection.
+Here we can hover over each section and see the actual values in each part of the connection string.
+
+3 - Go ahead and stick to the default values provided and update our connection in our django settings.py file.
+
+4 - DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': '<PGDATABASE>',
+        'USER': '<PGUSER>',
+        'PASSWORD': '<PGPASSWORD>',
+        'HOST': '<PGHOST>',
+        'PORT': '<PGPORT>',
+    }
+}
+
+5 - That's it for the connection! Go ahead and run python manage.py migrate and view your data in the data tab in your postgres database on railway.
+
+https://dev.to/dennisivy11/easiest-django-postgres-connection-ever-with-railway-11h6
