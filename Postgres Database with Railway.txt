@@ -18,4 +18,6 @@ Here we can hover over each section and see the actual values in each part of th
 
 5 - That's it for the connection! Go ahead and run python manage.py migrate and view your data in the data tab in your postgres database on railway.
 
+python manage.py migrate --run-syncdb
+
 https://dev.to/dennisivy11/easiest-django-postgres-connection-ever-with-railway-11h6
